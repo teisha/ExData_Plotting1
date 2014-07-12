@@ -1,4 +1,6 @@
 run_plot2 <- function() {
+  source("getdata.R")
+  getdata()
   png(filename="plot2.png",
       width = 480,
       height = 480)

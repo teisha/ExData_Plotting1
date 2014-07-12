@@ -1,4 +1,6 @@
 run_plot3 <- function() {
+  source("getdata.R")
+  getdata()
   png(filename="plot3.png",
       width = 480,
       height = 480)
